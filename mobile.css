@@ -1,0 +1,101 @@
+@media(max-width:450px){
+
+    
+    header{
+   
+        height: 130px;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+        gap: 20px;
+    }
+
+    
+    header nav{
+        width:100% ;
+        gap: 40px;
+        justify-content: center;
+    }
+    
+    nav a{
+      
+    
+        font-size: 11px;
+       
+    }
+    
+    main{
+           margin-top: 130px;
+    
+    }
+    
+    .banner{
+      
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 30px;
+        gap: 30px;
+    }
+    
+    .left-div{
+        width: 100%;
+
+    
+    }
+    
+
+    
+    .right-div{
+        width: 90%;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    
+    .right-div h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    
+    .projects{
+       
+        padding: 100px;
+        
+    }
+    
+    .projects h2{
+        font-size: 25px;
+
+    
+    }
+    
+    .projects div{
+      flex-direction: column;
+        
+    }
+    
+    .reviews{
+       
+        padding: 30px;
+    }
+    
+    .reviews h2{
+        font-size: 28px;
+    }
+    
+    .reviews div{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 100px  30px;
+        gap: 50px;
+    
+    }
+    .reviews div article{
+        width: 90%;
+
+    
+    }
+    
+}
